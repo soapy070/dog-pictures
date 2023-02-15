@@ -11,33 +11,48 @@ Author: Iain Watson
 html,body{
   height:100%;
   margin:0px;
+  background-color: lightyellow;
 }
-
 h1 {
-  font: size 8cm;
+  font-size: 3cm;
+  text-align: center;
   margin: 0;
   padding: 0.5cm;
-  color: rgb(141, 33, 33);
+  color: lightgoldenrodyellow;
 }
-
-.panel{
-    width:75%;
-    height: auto;
-    margin-left: 2cm;
-    margin-right: 2cm;
-    background-color: purple;
-    padding: 1cm;
-    border-radius: 16px;
+p {
+  padding: 1cm;
+  font-size: 1cm;
 }
-
-#bg{
+.bg{
   background-image: url(picture1.jpg);
-  height:100%;
+  background:url(picture1.jpg);
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.panel{
+    width:75%;
+    height: auto;
+    margin: auto;
+    background-color: purple;
+    padding: 1cm;
+    border-radius: 10px;
+}
+
+#breed-list{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 2cm;
+}
+
+#image-container{
+    display: none;
+}
 
 
 /*
