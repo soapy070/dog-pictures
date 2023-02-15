@@ -1,3 +1,46 @@
+/*
+Author: Iain Watson
+    Page about dogs
+*/
+
+*{
+  color: rgb(209, 92, 92);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+  height:100%;
+  margin:0px;
+}
+
+h1 {
+  font: size 8cm;
+  margin: 0;
+  padding: 0.5cm;
+  color: rgb(141, 33, 33);
+}
+
+.panel{
+    width:75%;
+    height: auto;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    background-color: purple;
+    padding: 1cm;
+    border-radius: 16px;
+}
+
+#bg{
+  background-image: url(picture1.jpg);
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/*
 html{overflow:auto;}
 body {
   background: rgb(57, 189, 241);
@@ -46,3 +89,4 @@ img:hover {
     border-radius: 100px;
     opacity: 1;
 }
+*/
