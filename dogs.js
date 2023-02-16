@@ -3,19 +3,19 @@ Author: Iain Watson
 Web page about dogs
 */
 
-//Variables
+/*Variables*/
 const breedListUrl = "https://dog.ceo/api/breeds/list/all";
 const breedList = document.getElementById("breed-list");
 
-//when the page loads
+/*when the page loads*/
 window.addEventListener("load", );
 
-//retrieve the list of all breeds from API
+/*retrieve the list of all breeds from API*/
 function getBreedList(){
     return fetch(breedListUrl).then(response => response.json());
 }
 
-//add breed to drop down list
+/*add breed to drop down list*/
 function updateBreedList(){
     getBreedList().then(function(data){
             //get breed name
@@ -26,10 +26,10 @@ function updateBreedList(){
             
         }
     }
-}
+,
 
 function createOption(text){
     let option = document.createElement("option");
     option.textContent = text;
     return option;
-}
+    )};
